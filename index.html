@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+Display:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Angela's Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- header nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand text-white my-name" href="./index.html"
+          >Angela WONG</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item p-2 zoom">
+              <a class="nav-link" href="#about-me"><span>About Me</span></a>
+            </li>
+            <li class="nav-item p-2 zoom">
+              <a class="nav-link" href="#my-projects"
+                ><span>My Projects</span></a
+              >
+            </li>
+            <li class="nav-item p-2 zoom">
+              <a class="nav-link" href="#contact-me"><span>Contact Me</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- about me section -->
+      <div class="p-5"></div>
+      <div class="p-2">
+        <div class="card text-center">
+          <div id="about-me" class="card-header heading">ABOUT ME</div>
+          <div class="card-body">
+            <h6 class="card-title">Hello! I am Angela. :)</h6>
+            <img
+              id="my-pic"
+              src="./assets/images/about-me.jpg"
+              alt="my profile picture"
+            />
+            <p class="card-text ml-5 mr-5 pl-5 pr-5">
+              An organised, creative, and reliable full-stack web developer with
+              skills in HTML, CSS, and JavaScript. Find doing web development
+              challenging yet satisfying. Feel a sense of accomplishment while
+              doing so.
+            </p>
+            <p class="card-text ml-5 mr-5 pl-5 pr-5">
+              Fluent in English, Cantonese, and Mandarin. Experience in
+              administrative and customer service with achieving zero customer
+              complaints and satisfied an average of over 50 citizens a day.
+              Ability to brainstorm, cultivate and share ideas. Delivering at
+              pace without compromising quality. Strive to work well under
+              pressure. Happy to work as a team as combined skills make one
+              awesome whole.
+            </p>
+          </div>
+          <div class="card-footer text-muted">
+            <a
+              href="./assets/document/angela-wong-cv.pdf"
+              class="btn btn-cv"
+              target="_blank"
+              >Click to download my CV</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- my projects section -->
+      <!-- big card for the project -->
+      <div class="col-md-12 p-2">
+        <div class="card text-center">
+          <div id="my-projects" class="card-header heading">MY PROJECTS</div>
+          <div class="card-body">
+            <h5 class="card-title project-name">Project - MoneyMail</h5>
+            <div class="row">
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <a
+                  href="https://angelawong3.github.io/project-moneymail/"
+                  target="_blank"
+                >
+                  <img
+                    id="money-mail"
+                    src="./assets/images/work-pj-moenymail.jpg"
+                    alt="project Moneymail"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <p class="card-text">MoneyMail.</p>
+                <p>
+                  An app that allows you to exchange currencies with a click of
+                  a button.
+                </p>
+                <p>
+                  You can input a value to view currency exchange rate and
+                  retrieve relevant news regarding the chosen currencies. Enable
+                  you to view the rate and latest news before you commit to
+                  converting.
+                </p>
+              </div>
+              <div class="pt-2 mx-auto">
+                <a
+                  href="https://github.com/angelawong3/project-moneymail"
+                  class="btn btn-repo2"
+                  target="_blank"
+                  >Link to the GitHub repository</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- smaller cards -->
+      <div class="row pl-2 pr-2">
+        <!-- card 1 -->
+        <div class="col-md-6 col-sm-12 col-xs-12 pt-2">
+          <div class="card text-center project-card">
+            <div class="card-body">
+              <h5 class="card-title project-name">Weather Dashboard</h5>
+              <a
+                href="https://angelawong3.github.io/weather-dashboard/"
+                target="_blank"
+              >
+                <img
+                  id="weather-dashboard"
+                  class="project-small-card"
+                  src="./assets/images/work-weather-dashboard.png"
+                  alt="weather dashboard"
+                />
+              </a>
+              <p class="card-text">
+                The app will show the current weather and 5-day forecast
+                information of that city with temperature, the humidity, the
+                wind speed, and the UV index.
+              </p>
+              <a
+                href="https://github.com/angelawong3/weather-dashboard/"
+                class="btn btn-repo1"
+                target="_blank"
+                >Link to the GitHub repository</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="col-md-6 col-sm-12 col-xs-12 pt-2">
+          <div class="card text-center project-card">
+            <div class="card-body">
+              <h5 class="card-title project-name">Code Quiz</h5>
+              <a
+                href="https://angelawong3.github.io/code-quiz/"
+                target="_blank"
+              >
+                <img
+                  id="code-quiz"
+                  class="project-small-card"
+                  src="./assets/images/work-code-quiz.png"
+                  alt="code quiz"
+                />
+              </a>
+              <p class="card-text">
+                A timed quiz on JavaScript fundamentals that stores high scores
+                for. You may replay the game when time's up. Have fun!
+              </p>
+              <a
+                href="https://github.com/angelawong3/code-quiz/"
+                class="btn btn-repo2"
+                target="_blank"
+                >Link to the GitHub repository</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pl-2 pr-2">
+        <!-- card 3 -->
+        <div class="col-md-6 col-sm-12 col-xs-12 pt-2">
+          <div class="card text-center project-card">
+            <div class="card-body">
+              <h5 class="card-title project-name">Password Generator</h5>
+              <a
+                href="https://angelawong3.github.io/password-generator/"
+                target="_blank"
+              >
+                <img
+                  id="password-generator"
+                  class="project-small-card"
+                  src="./assets/images/work-pw-gen.jpg"
+                  alt="password generator"
+                />
+              </a>
+              <p class="card-text">
+                To generate random password from your chosen criteria, including
+                uppercases, lowercases, numbers, and special characters.
+              </p>
+              <a
+                href="https://github.com/angelawong3/password-generator/"
+                class="btn btn-repo2"
+                target="_blank"
+                >Link to the GitHub repository</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="col-md-6 col-sm-12 col-xs-12 pt-2">
+          <div class="card text-center project-card">
+            <div class="card-body">
+              <h5 class="card-title project-name">Day Planner</h5>
+              <a
+                href="https://angelawong3.github.io/day-planner/"
+                target="_blank"
+              >
+                <img
+                  id="day-planner"
+                  class="project-small-card"
+                  src="./assets/images/work-day-planner.png"
+                  alt="day planner"
+                />
+              </a>
+              <p class="card-text">
+                A day planner with timeblocks for standard business hours. You
+                may save your events in the text area and view them even after
+                refreshing the page.
+              </p>
+              <a
+                href="https://github.com/angelawong3/day-planner/"
+                class="btn btn-repo1"
+                target="_blank"
+                >Link to the GitHub repository</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pl-2 pr-2">
+        <!-- card 5 -->
+        <div class="col-md-6 col-sm-12 col-xs-12 pt-2">
+          <div class="card text-center project-card">
+            <div class="card-body">
+              <h5 class="card-title project-name">Fan page for Grogu</h5>
+              <a
+                href="https://angelawong3.github.io/my-first-repo/"
+                target="_blank"
+              >
+                <img
+                  id="grogu"
+                  class="project-small-card"
+                  src="./assets/images/work-grogu.png"
+                  alt="fan page for Grogu"
+                />
+              </a>
+              <p class="card-text">
+                My first repo for one of my favourite characters in Star Wars,
+                Grogu, aka baby yoda. He is coming back early next year (2023)
+                for season 3 of The Mandalorian.
+              </p>
+              <a
+                href="https://github.com/angelawong3/my-first-repo/"
+                class="btn btn-repo1"
+                target="_blank"
+                >Link to the GitHub repository</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- card 6 -->
+        <div class="col-md-6 col-sm-12 col-xs-12 pt-2">
+          <div class="card text-center project-card">
+            <div class="card-body">
+              <h5 class="card-title project-name">Code Refactoring</h5>
+              <a
+                href="https://angelawong3.github.io/code-refactoring/"
+                target="_blank"
+              >
+                <img
+                  id="code-refactoring"
+                  class="project-small-card"
+                  src="./assets/images/work-refactor.png"
+                  alt="code refactoring"
+                />
+              </a>
+              <p class="card-text">
+                Code refactoring for the home page of Horiseon Social Solution
+                Services. Restructuring code while remain its original
+                functionality.
+              </p>
+              <a
+                href="https://github.com/angelawong3/code-refactoring/"
+                class="btn btn-repo2"
+                target="_blank"
+                >Link to the GitHub repository</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-2">
+        <div class="card text-center">
+          <div id="contact-me" class="card-header heading">CONTACT ME</div>
+          <div class="card-body">
+            <ul>
+              <li>
+                <a class="contact-me-li" href="mailto:angelawong3@yahoo.com"
+                  >📩&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email&nbsp;&nbsp;&nbsp;</a
+                >
+              </li>
+              <li>
+                <a
+                  class="contact-me-li"
+                  href="https://github.com/angelawong3"
+                  target="_blank"
+                  >👾&nbsp;&nbsp;&nbsp;&nbsp;GitHub&nbsp;&nbsp;</a
+                >
+              </li>
+              <li>
+                <a
+                  class="contact-me-li"
+                  href="http://linkedin.com/in/angelawong3"
+                  target="_blank"
+                  >💻&nbsp;&nbsp;&nbsp;LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2022 Angela Wong</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

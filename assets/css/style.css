@@ -1,0 +1,130 @@
+:root {
+  font-family: "Noto Sans Display", sans-serif;
+  --space-cadet: #2b2d42ff;
+  --manatee: #8d99aeff;
+  --cultured: #edf2f4ff;
+  --army-green: #41521fff;
+  --pale-spring-bud: #dde5b6ff;
+  --pastel-pink: #e5989bff;
+  --english-lavender: #b5838dff;
+}
+
+nav {
+  background-color: var(--army-green);
+}
+
+span {
+  color: var(--pale-spring-bud);
+}
+
+li {
+  list-style-type: none;
+}
+
+.my-name {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.navbar-toggler {
+  background-color: var(--cultured);
+}
+
+.zoom:hover {
+  text-transform: uppercase;
+}
+
+.heading {
+  color: var(--army-green);
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.btn-cv {
+  background-color: var(--pastel-pink);
+  color: var(--cultured);
+}
+
+.btn-cv:hover {
+  text-transform: uppercase;
+  background-color: var(--english-lavender);
+  color: var(--cultured);
+}
+
+.project-name {
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--space-cadet);
+  text-decoration: underline;
+}
+
+.project-card {
+  height: 400px;
+}
+
+.card-text {
+  padding-top: 10px;
+  color: var(--space-cadet);
+}
+
+.project-small-card {
+  width: 300px;
+  height: 180px;
+  opacity: 0.8;
+}
+
+.project-small-card:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.btn-repo1 {
+  background-color: var(--army-green);
+  color: var(--pale-spring-bud);
+}
+
+.btn-repo1:hover {
+  text-transform: uppercase;
+  color: var(--manatee);
+}
+
+.btn-repo2 {
+  background-color: var(--pale-spring-bud);
+  color: var(--army-green);
+}
+
+.btn-repo2:hover {
+  text-transform: uppercase;
+  color: var(--manatee);
+}
+
+.contact-me-li {
+  box-shadow: inset 0 0 0 0 white;
+  color: var(--pastel-pink);
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-me-li:hover {
+  box-shadow: inset 100px 0 0 0 var(--english-lavender);
+  color: var(--cultured);
+  text-decoration: none;
+}
+
+.footer {
+  padding: 30px;
+  clear: both; /* no other element takes up space on the left and right side */
+  text-align: center;
+}
+
+#my-pic {
+  width: 220px;
+}
+
+#money-mail {
+  width: 380px;
+  opacity: 0.8;
+}
+
+#money-mail:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
