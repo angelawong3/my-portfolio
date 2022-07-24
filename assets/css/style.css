@@ -115,16 +115,16 @@ li {
   text-align: center;
 }
 
-#my-pic {
-  width: 220px;
-}
-
-#money-mail {
+.project {
   width: 380px;
   opacity: 0.8;
 }
 
-#money-mail:hover {
+.project:hover {
   transform: scale(1.1);
   opacity: 1;
+}
+
+#my-pic {
+  width: 220px;
 }
