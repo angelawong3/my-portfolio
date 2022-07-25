@@ -1,4 +1,5 @@
 .vscode
 .DS_store
-/document
-/images
+.pdf
+.jpg
+.png
